@@ -16,7 +16,7 @@
   "scripts": {
     "build": "yarn clean && tsc",
     "clean": "rimraf dist",
-    "deploy": "dotenv -- cross-var gcloud functions deploy %FUNCTION_NAME% --timeout %FUNCTION_TIMEOUT% --entry-point entryPoint --runtime %FUNCTION_RUNTIME% --gen2 --source=. --allow-unauthenticated --trigger-http --region %FUNCTION_REGION%",
+    "deploy": "dotenv -- cross-var gcloud functions deploy %FUNCTION_NAME% --timeout %FUNCTION_TIMEOUT% --entry-point entryPoint --runtime %FUNCTION_RUNTIME% --gen2 --source=. --allow-unauthenticated --trigger-http --region %FUNCTION_REGION% --memory 512MiB --max-instances 30",
     "dev": "tsc-watch --onSuccess \"functions-framework --target=entryPoint\"",
     "gcp-build": "yarn build"
   }
