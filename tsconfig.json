@@ -1,20 +1,25 @@
 {
   "compilerOptions": {
-      "lib": ["ESNext"],
-      "module": "commonjs",
-      "target": "ESNext",
-      "moduleResolution": "node",
-      "esModuleInterop": true,
-      "importHelpers": true,
-      "jsx": "react",
-      "strict": true,
-      "pretty": true,
-      "sourceMap": true,
-      "declaration": true,
-      "skipLibCheck": true,
-      "outDir": "./dist",
-      "baseUrl": "./src",
-      "rootDir": "./src",
+    "lib": [
+      "ESNext"
+    ],
+    "module": "commonjs",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "strict": true,
+    "pretty": true,
+    "sourceMap": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "rootDir": "./src",
   },
-  "include": ["src/**/*"]
+  "include": [
+    "src/**/*"
+  ]
 }
