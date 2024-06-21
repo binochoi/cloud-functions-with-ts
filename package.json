@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@google-cloud/functions-framework": "^3.1.3",
-    "@types/node": "18.19.37",
+    "@types/node": "18.19.38",
     "cross-var": "^1.1.0",
     "dotenv": "16.4.5",
     "dotenv-cli": "^7.0.0",
