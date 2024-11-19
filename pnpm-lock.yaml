@@ -19,7 +19,7 @@ devDependencies:
     version: 16.4.5
   dotenv-cli:
     specifier: ^7.0.0
-    version: 7.4.2
+    version: 7.4.3
   rimraf:
     specifier: 3.0.2
     version: 3.0.2
@@ -1028,6 +1028,15 @@ packages:
       which: 2.0.2
     dev: true
 
+  /cross-spawn@7.0.6:
+    resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
+    engines: {node: '>= 8'}
+    dependencies:
+      path-key: 3.1.1
+      shebang-command: 2.0.0
+      which: 2.0.2
+    dev: true
+
   /cross-var@1.1.0:
     resolution: {integrity: sha512-wIcFax9RNm5ayuORUeJ5MLxPbfh8XdZhhUpKutIszU46Fs9UIhEdPJ7+YguM+7FxEj+68hSQVyathVsIu84SiA==}
     hasBin: true
@@ -1078,11 +1087,11 @@ packages:
       repeating: 2.0.1
     dev: true
 
-  /dotenv-cli@7.4.2:
-    resolution: {integrity: sha512-SbUj8l61zIbzyhIbg0FwPJq6+wjbzdn9oEtozQpZ6kW2ihCcapKVZj49oCT3oPM+mgQm+itgvUQcG5szxVrZTA==}
+  /dotenv-cli@7.4.3:
+    resolution: {integrity: sha512-lf1E+TL1xFeoOHy2hSO3kLkx3KX8CDi17ccn5z5dVCnk2PuWqUKAnBVgQmhfS0BPuzFbptTEHVcIKFsGF0NAcg==}
     hasBin: true
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       dotenv: 16.4.5
       dotenv-expand: 10.0.0
       minimist: 1.2.8
