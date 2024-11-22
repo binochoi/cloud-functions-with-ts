@@ -19,7 +19,7 @@ devDependencies:
     version: 16.4.5
   dotenv-cli:
     specifier: ^7.0.0
-    version: 7.4.3
+    version: 7.4.4
   rimraf:
     specifier: 3.0.2
     version: 3.0.2
@@ -1087,8 +1087,8 @@ packages:
       repeating: 2.0.1
     dev: true
 
-  /dotenv-cli@7.4.3:
-    resolution: {integrity: sha512-lf1E+TL1xFeoOHy2hSO3kLkx3KX8CDi17ccn5z5dVCnk2PuWqUKAnBVgQmhfS0BPuzFbptTEHVcIKFsGF0NAcg==}
+  /dotenv-cli@7.4.4:
+    resolution: {integrity: sha512-XkBYCG0tPIes+YZr4SpfFv76SQrV/LeCE8CI7JSEMi3VR9MvTihCGTOtbIexD6i2mXF+6px7trb1imVCXSNMDw==}
     hasBin: true
     dependencies:
       cross-spawn: 7.0.6
