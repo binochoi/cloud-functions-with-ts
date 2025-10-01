@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^1.1.0
     version: 1.1.0
   dotenv:
-    specifier: 16.6.1
-    version: 16.6.1
+    specifier: 17.2.3
+    version: 17.2.3
   dotenv-cli:
     specifier: ^7.0.0
     version: 7.4.4
@@ -1084,6 +1084,11 @@ packages:
 
   /dotenv@16.6.1:
     resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
+    engines: {node: '>=12'}
+    dev: true
+
+  /dotenv@17.2.3:
+    resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
     engines: {node: '>=12'}
     dev: true
 
