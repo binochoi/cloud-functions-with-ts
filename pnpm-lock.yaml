@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^1.1.0
     version: 1.1.0
   dotenv:
-    specifier: 16.6.1
-    version: 16.6.1
+    specifier: 18.0.1
+    version: 18.0.1
   dotenv-cli:
     specifier: ^7.0.0
     version: 7.4.4
@@ -1085,6 +1085,12 @@ packages:
   /dotenv@16.6.1:
     resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
     engines: {node: '>=12'}
+    dev: true
+
+  /dotenv@18.0.1:
+    resolution: {integrity: sha512-0eR4m4D/jH5eaI3evo2ZqqMii5mrTCR12v12VChdie6O1gPHs7XAjzTep0CWc1Bd+oNx3vVfbi734dK4zghigw==}
+    engines: {node: '>=12'}
+    hasBin: true
     dev: true
 
   /dunder-proto@1.0.1:
